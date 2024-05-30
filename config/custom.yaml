@@ -1,0 +1,15 @@
+// Extra model training
+
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 3
+names: ['Bear', 'Brown-bear', 'Bull']
+
+roboflow:
+  workspace: animalsdetection-hvirj
+  project: animal-models-pngkv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/animalsdetection-hvirj/animal-models-pngkv/dataset/1
